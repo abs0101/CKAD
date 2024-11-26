@@ -29,6 +29,7 @@ kubectl apply -f sidecar.yaml
 kubectl get pod
 ```
 ```
+kubectl logs sidecar-pod -c sidecar-container
 kubectl exec -it sidecar-pod -c sidecar-container -- sh
 ```
 ``` 
